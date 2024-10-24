@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@1,100..400&display=swap');
+/*italic*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: darkgreen;
+}
+
+.header__title{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.barra__profile_text{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header__barra{
+    display: flex;
+    background-color: rgb(9, 255, 0);
+    padding-bottom: 10px;
+}
