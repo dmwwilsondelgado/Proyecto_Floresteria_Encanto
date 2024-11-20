@@ -6,7 +6,6 @@
     font-style: normal;
   }
   
-
 .container-titulo__header{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -17,12 +16,12 @@
 
 
 /* Resetear algunos estilos predeterminados del navegador */
-body, h1, h2, h3, p, ul, li, a {
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0;
+  padding: 0;
 }
 body{
-    background: radial-gradient(circle, rgba(179,236,255,1) 0%, rgba(254,249,255,1) 81%, rgba(253,197,255,1) 100%);
+  background: radial-gradient(circle, rgba(179,236,255,1) 0%, rgba(254,249,255,1) 81%, rgba(253,197,255,1) 100%);
 }
 /* Estilos para el encabezado */
 header {
