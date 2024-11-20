@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
+.container-titulo__header{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: small;
+}
+
+
+/* Resetear algunos estilos predeterminados del navegador */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(circle, rgba(179,236,255,1) 0%, rgba(254,249,255,1) 81%, rgba(253,197,255,1) 100%);
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
